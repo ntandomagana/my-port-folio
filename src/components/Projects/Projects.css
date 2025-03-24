@@ -1,0 +1,96 @@
+/* Projects.css */
+.projects {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .projects-header {
+    margin-bottom: 30px;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .code-icon {
+    font-size: 40px;
+    color: #ff1493; /* Pink color for the icon */
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-description {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .project-image {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Alternating layouts */
+  .image-right {
+    flex-direction: row;
+  }
+  
+  .image-left {
+    flex-direction: row-reverse;
+  }
+  
+  /* Style for the project title link */
+  .project-title {
+    text-decoration: none;
+    color: black; /* Pink color for the title */
+    font-weight: bold;
+  }
+  
+  .project-title:hover {
+    text-decoration: none;
+    color: rgb(184, 53, 184);
+  }
+  
+  /* Responsive design */
+  /* @media (max-width: 768px) {
+    .project {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .project-description, .project-image {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .project-image {
+      margin-bottom: 20px;
+    }
+  }
+   */

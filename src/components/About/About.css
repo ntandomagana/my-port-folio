@@ -1,0 +1,90 @@
+/* #about {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 80px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding-right: 40px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hidden-lg {
+    display: none;
+  }
+  
+  .description {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+  } */
+  
+  /* .projects-btn { */
+    /* padding: 0.8rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+   */
+  /* .cta-btn.green {
+    background-color: #38a169;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .projects-btn.green:hover {
+    background-color: #2f855a;
+  }
+   */
+  /* .cta-btn.gray {
+    background-color: #2d3748;
+    color: #cbd5e0;
+  }
+  
+  .cta-btn.gray:hover {
+    background-color: #4a5568;
+    color: white;
+  } */
+  
+  /* .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  } */
+  
+  /* Media Queries for responsive design */
+  /* @media (min-width: 768px) {
+    .text-container {
+      text-align: left;
+    }
+  
+    .hidden-lg {
+      display: inline-block;
+    }
+} */
