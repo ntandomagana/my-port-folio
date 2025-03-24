@@ -78,15 +78,15 @@
 
 .icons-container {
     position: fixed;
-    top: 50%; /* This centers the container vertically */
+    top: 50%; 
     left: 0;
-    transform: translateY(-50%); /* Centering correction */
+    transform: translateY(-50%); 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding-left: 10px; /* Space between icons and line */
-    padding-right: 10px; /* Optional: space on the other side of the vertical line */
+    padding-left: 10px; 
+    padding-right: 10px; 
   }
 
   .icons-container::after {
