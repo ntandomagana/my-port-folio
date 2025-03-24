@@ -3,9 +3,9 @@ import './Projects.css';
 export default function Projects(){
 
     const projects = [
-        { id: 1, title: "Speak Easy", description: "This is a teaching english platform where students can sign up and get to book teachers from the platform.", image: "/images/footy-addicts.jpg", url: "https://github.com/ntandomagana/speak-easy" },
-        { id: 2, title: "Football Addicts", description: "This is a webiste where sports lovers can book a venue and play their favorite sports.", image: "/images/footy-addicts.jpg", url: "https://github.com/ntandomagana/football-addicts" },
-        { id: 3, title: "Project Three", description: "This is my third project description.", image: "/images/footy-addicts.jpg", url: "https://github.com/ntandomagana/football-addicts" }
+        { id: 1, title: "Speak Easy", description: "This is a teaching english platform where students can sign up and get to book teachers from the platform.", image: "/images/footy-addicts.png", url: "https://github.com/ntandomagana/speak-easy" },
+        { id: 2, title: "Football Addicts", description: "This is a webiste where sports lovers can book a venue and play their favorite sports.", image: "/images/footy-addicts.png", url: "https://github.com/ntandomagana/football-addicts" },
+        { id: 3, title: "Project Three", description: "This is my third project description.", image: "./images/footy-addicts.png", url: "https://github.com/ntandomagana/football-addicts" }
     ]
 
     return (

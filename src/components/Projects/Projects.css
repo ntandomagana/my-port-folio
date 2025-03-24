@@ -17,7 +17,7 @@
   
   .code-icon {
     font-size: 40px;
-    color: #ff1493; /* Pink color for the icon */
+    color: #a393eb; 
   }
   
   h2 {
@@ -42,7 +42,7 @@
     align-items: center;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(228, 162, 232, 0.642);
   }
   
   .project-description {

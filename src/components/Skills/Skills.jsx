@@ -1,29 +1,53 @@
-import './Skills.css';
-import { FaReact, FaNodeJs, FaGitSquare, FaHtml5, FaCss3Alt } from 'react-icons/fa'; // React Icons
-import { SiAngular, SiTypescript, SiTailwindcss, SiBootstrap, SiJavascript } from 'react-icons/si';
+import "./Skills.css";
+import {
+  FaReact,
+  FaNodeJs,
+  FaGitSquare,
+  FaHtml5,
+  FaCss3Alt,
+  FaJava,
+} from "react-icons/fa";
+import {
+  SiAngular,
+  SiTypescript,
+  SiTailwindcss,
+  SiBootstrap,
+  SiJavascript,
+  SiExpress,
+  SiSpring,
+} from "react-icons/si";
 
 
-// import { TechStackIcons } from 'tech-stack-icons';
-
-
-export default function Skills(){
-    return (
-        <section id="skills" className="skills-section">
-        <h2 className="skills-heading">My Skills</h2>
-        <div className="skills-container">
-          <div className="skill">
-            <FaReact size={50} color="#61dafb" />
-            <p>React</p>
-          </div>
-          <div className="skill">
-            <FaNodeJs size={50} color="#3C873A" />
-            <p>Node.js</p>
-          </div>
-          <div className="skill">
-            <FaGitSquare size={50} color="#f14e32" />
-            <p>Git</p>
-          </div>
-          <div className="skill">
+export default function Skills() {
+  return (
+    <section id="skills" className="skills-section">
+      <h2 className="skills-heading">My Skills</h2>
+      <div className="skills-container">
+        <div className="skill">
+          <FaReact size={50} color="#61dafb" />
+          <p>React</p>
+        </div>
+        <div className="skill">
+          <FaNodeJs size={50} color="#3C873A" />
+          <p>Node.js</p>
+        </div>
+        <div className="skill">
+          <SiExpress size={50} color="#000000" />
+          <p>Express.js</p>
+        </div>
+        <div className="skill">
+          <SiSpring size={50} color="#6DB33F" />
+          <p>Spring Boot</p>
+        </div>
+        <div className="skill">
+          <FaJava size={50} color="#f89820" />
+          <p>Java</p>
+        </div>
+        <div className="skill">
+          <FaGitSquare size={50} color="#f14e32" />
+          <p>Git</p>
+        </div>
+        <div className="skill">
           <SiAngular size={50} color="#dd1b16" />
           <p>Angular</p>
         </div>
@@ -51,9 +75,7 @@ export default function Skills(){
           <FaCss3Alt size={50} color="#1572B6" />
           <p>CSS3</p>
         </div>
-          
-        </div>
-      </section>
-      );
-    
+      </div>
+    </section>
+  );
 }

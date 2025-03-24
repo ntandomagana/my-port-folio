@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       <div className="icons-container">
-        <a href="https://www.linkedin.com/in/ntandoyenkosi-magana" className="icon" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/ntandoyenkosi-magana-/" className="icon" target="_blank" rel="noopener noreferrer">
           <i className="bi bi-linkedin"></i>
         </a>
         <a href="https://github.com/ntandomagana" className="icon" target="_blank" rel="noopener noreferrer">

@@ -15,10 +15,13 @@
   }
   
   .skills-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
     justify-content: center;
-    flex-wrap: wrap;
     gap: 40px;
+    align-items: center;
+    max-width: 800px; 
+    margin: 0 auto;
   }
   
   .skill {
@@ -26,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 120px; /* Width of each skill container */
+    width: 120px; 
   }
   
   .skill img {
