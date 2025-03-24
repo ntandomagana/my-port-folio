@@ -43,18 +43,22 @@
     align-items: center;
     padding: 10px;
     border-radius: 8px;
+
     box-shadow: 0 4px 8px rgba(228, 162, 232, 0.642);
   }
   
   .project-description {
     max-width: 50%;
     text-align: left;
+    margin: 50px;
+
   }
   
   .project-image {
     width: 40%;
     height: auto;
     border-radius: 8px;
+    margin: 40px;
   }
   
   /* Alternating layouts */
@@ -69,8 +73,9 @@
   /* Style for the project title link */
   .project-title {
     text-decoration: none;
-    color: black; /* Pink color for the title */
+    color: black; 
     font-weight: bold;
+
   }
   
   .project-title:hover {
