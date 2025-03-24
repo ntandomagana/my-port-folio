@@ -3,7 +3,7 @@ import './Projects.css';
 export default function Projects(){
 
     const projects = [
-        { id: 1, title: "Speak Easy", description: "This is a teaching english platform where students can sign up and get to book teachers from the platform.", image: "/images/footy-addicts.png", url: "https://github.com/ntandomagana/speak-easy" },
+        { id: 1, title: "Speak Easy", description: "This is a teaching english platform where students can sign up and get to book teachers from the platform.", image: "/images/speak-easy.png", url: "https://github.com/ntandomagana/speak-easy" },
         { id: 2, title: "Football Addicts", description: "This is a webiste where sports lovers can book a venue and play their favorite sports.", image: "/images/footy-addicts.png", url: "https://github.com/ntandomagana/football-addicts" },
         { id: 3, title: "Fullstack Developer Portfolio", description: "This is a very short project where I built my own portfolio.", image: "./images/portfolio.png", url: "https://github.com/ntandomagana/my-port-folio" }
     ]
